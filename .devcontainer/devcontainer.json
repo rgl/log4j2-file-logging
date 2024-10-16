@@ -1,0 +1,16 @@
+{
+  "name": "log4j2 file logging example",
+  "dockerFile": "Dockerfile",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-test",
+        "vscjava.vscode-gradle",
+        "vscjava.vscode-java-dependency"
+      ]
+    }
+  }
+}
