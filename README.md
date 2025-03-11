@@ -13,11 +13,18 @@ Open this directory with the Dev Container plugin.
 
 Open the Visual Studio Code Terminal.
 
-Build and execute the example:
+Build:
+
+```bash
+gradle dependencies
+gradle build --warning-mode all
+jar tf build/libs/example-1.0.0.jar
+```
+
+Execute:
 
 ```bash
 rm -rf logs
-gradle build --warning-mode all
 gradle run
 ll logs
 # then execute gradle run several times, to see how it rotates the files.
