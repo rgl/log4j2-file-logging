@@ -1,10 +1,10 @@
-# syntax=docker.io/docker/dockerfile:1.10
+# syntax=docker.io/docker/dockerfile:1.14
 
 # see https://gradle.org/install/#manually
-ARG GRADLE_VERSION='8.10.2'
+ARG GRADLE_VERSION='8.13'
 
 # see https://github.com/devcontainers/images/tree/main/src/base-debian/history
-FROM mcr.microsoft.com/devcontainers/base:1.0.16-bookworm
+FROM mcr.microsoft.com/devcontainers/base:1.0.19-bookworm
 
 RUN <<'EOF'
 #!/usr/bin/bash
